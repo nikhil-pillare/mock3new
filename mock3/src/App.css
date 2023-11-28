@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.cryimg{
+  width: 10%;
+  height: 10%;
+  margin: auto;
+}
+.crydiv{
+  display: flex;
+  justify-content: space-around;
+  
+}
+table{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: auto;
+  width: 100%;
+  
+  background: rgb(28,28,28);
+background: linear-gradient(90deg, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+thead{
+  border: none;
+  background-color: rgb(255, 196, 0);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+tr{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: white;
+  padding: 15px;
+}
+.crydiv>div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  justify-content: center;
+  margin-left: -20%;
+  
+}
+.overlay{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background: rgb(255,235,235);
+background: linear-gradient(90deg, rgba(255,235,235,1) 0%, rgba(205,205,205,1) 100%);
+}
+td{
+  padding: 10px;
+}
+.crydiv>div>p{
+  margin-top: 0px;
+ 
+}
+.crydiv>div>h2{
+  margin-bottom: 0px;
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
